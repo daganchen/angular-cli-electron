@@ -11,7 +11,7 @@
     "lint": "ng lint",
     "package:win": "npm run build && cross-var electron-packager dist $npm_package_name-$npm_package_version --out=packages --platform=win32 --arch=all --overwrite ",
     "package:linux": "npm run build && cross-var electron-packager dist $npm_package_name-$npm_package_version --out=packages --platform=linux --arch=all --overwrite ",
-    "package:mac": "npm run build && cross-var electron-packager dist $npm_package_name-$npm_package_version --out=packages --platform=mac --arch=all --overwrite ",
+    "package:mac": "npm run build && cross-var electron-packager dist $npm_package_name-$npm_package_version --out=packages --platform=darwin --arch=all --overwrite ",
     "package:all": "npm run build && cross-var electron-packager dist $npm_package_name-$npm_package_version --out=packages --all --arch=all --overwrite ",
     "e2e": "ng e2e"
   },
